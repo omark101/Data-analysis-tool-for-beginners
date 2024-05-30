@@ -26,3 +26,17 @@ Visualize YouTube search results with NetworkX.
 
 Scrape images from a specified webpage.
 Download the scraped images to your local machine.
+
+
+# Prerequisites
+*customtkinter*
+*Pillow*
+*serpapi*
+*pandas*
+*numpy*
+*requests*
+*beautifulsoup4*
+*opencv-python*
+*matplotlib*
+*networkx*
+*seaborn*
