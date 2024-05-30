@@ -54,8 +54,8 @@ class App:
         canvas.create_image(0, 0, image=bg, anchor="nw")
         
         face_deticton = self.create_button(canvas, "face detectiom", 150, 250, self.face_detection_window)
-        models_button = self.create_button(canvas, "3D Models", 150, 300)
-        photo_button = self.create_button(canvas, "Photos section", 150, 350)
+        #models_button = self.create_button(canvas, "3D Models", 150, 300)
+        #photo_button = self.create_button(canvas, "Photos section", 150, 350)
         excel_button = self.create_button(canvas, "Excel file section", 150, 400, self.Excel_analysis)
         search_button = self.create_button(canvas, "Search engines", 150, 450, self.open_search_engines)
         web_scraping_button = self.create_button(canvas, "Web scraping", 150, 500,self.Web_scrap_window_setup)
